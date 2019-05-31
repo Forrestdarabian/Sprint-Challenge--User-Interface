@@ -21,8 +21,31 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
+
+nav {
+    width: 100%;
+    background: white;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    font-size: 14px;
+}
+
+
+
+head {
+    width: 100%;
+    background: black;
+}
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -104,13 +127,16 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 .bottom-content {
     display: flex;
@@ -134,6 +160,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
+    background: black;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
@@ -142,5 +169,6 @@ footer nav {
 
 footer nav a {
     color: white;
+    background-color: black;
     text-decoration: none;
 }
