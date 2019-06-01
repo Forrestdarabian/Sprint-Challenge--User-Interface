@@ -30,6 +30,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Roboto, sans-serif;
+font-size: 14px;
+font-stretch: 100%;
+    
 }
 
 nav {
@@ -52,6 +56,9 @@ nav {
     display: flex;
     align-items: center;
     width: 100%;
+    font-family: Roboto, sans-serif;
+font-size: 14px;
+font-stretch: 100%;
 }
 
 head {
@@ -95,23 +102,35 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 40px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-family: Roboto, sans-serif;
+font-size: 14px;
+font-stretch: 100%;
+margin-bottom: 30px;
 }
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 30px ;
+    font-family: Roboto, sans-serif;
+font-size: 14px;
+font-stretch: 100%;
 }
 
 .top-content {
@@ -129,7 +148,7 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     border-bottom: 1px dashed black;
 }
 
@@ -290,19 +309,29 @@ footer nav a {
 
 .about-page1{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-start;
+    justify-content: center;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    width: 400px;
+    top: -500px;
+    padding: 0px;
+    border-bottom: 1px dashed black;
 }
  .about-page2{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-start;
+    justify-content: center;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    width: 400px;
+    margin-top:10px;
+    border-bottom: 1px dashed black;
  }
 
  .aboutpicture{
@@ -313,3 +342,79 @@ footer nav a {
     align-items: center;
     align-content: flex-start;
  }
+
+ .middle-content1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    border-bottom: 1px dashed black;
+ }
+
+ .words{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 0 1%;
+    padding-bottom: 60px;
+ }
+
+ #text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+ }
+
+ .img2{
+     top: 400px;
+ }
+
+ .middle-content1{
+     margin-bottom: 60px;
+ }
+    .img5{
+        margin-top: 200px;
+     }
+
+     .button .thirdbutton{
+         height:31px;
+         width:84.17px;
+     }
+     button .thirdbutton{
+        height:31px;
+        width:84.17px;
+         margin-bottom: 30px;
+     border: 3px black;
+            border-style: solid;
+            border-radius: 15px;
+            background-color: white;
+            font-size: 14px;
+            font-family: 'Rubik', sans-serif;
+            
+        }
+    
+    
+
+    button{
+        margin-bottom: 30px;
+        border: 3px black;
+        border-style: solid;
+        border-radius: 15px;
+        background-color: white;
+        font-size: 14px;
+        font-family: 'Rubik', sans-serif;
+        
+    }
+
+    
